@@ -50,9 +50,8 @@ For logistic regression  baselines [sklearn](http://scikit-learn.org/) is requir
 Here are the required steps to build the benchmark. It assumes that you already have MIMIC-IV dataset (lots of CSV files) on the disk. 
 
 1. Clone the repo.
-
-       git clone https://github.com/vincenzorusso12/mimic4-benchmarks/
-       cd mimic4-benchmarks/
+       git clone https://github.com/rajsinghUSA/mimic-iv-benchmarks/
+       cd mimic4benchmark
     
 2. The following command takes MIMIC-IV CSVs, generates one directory per `SUBJECT_ID` and writes ICU stay information to `data/{SUBJECT_ID}/stays.csv`, diagnoses to `data/{SUBJECT_ID}/diagnoses.csv`, and events to `data/{SUBJECT_ID}/events.csv`. This step might take around an hour.
 
